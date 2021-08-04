@@ -1,0 +1,75 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+header h1 a {
+    color: red;
+    text-decoration: none;
+}
+
+.nav-left h1 {
+    margin-right: auto;
+}
+
+.nav-right {
+    display: flex;
+    padding-top: 1rem;
+    margin-left: auto;
+}
+
+.nav-right a,
+.nav-right a:visited {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.nav-right a:hover {
+    color: red;
+}
+
+.Blog-entry {
+    margin-bottom: 2rem;
+}
+
+.Blog-entry h2 {
+    margin: 0.4rem 0;
+}
+
+.Blog-entry h2 a,
+.Blog-entry h2 a:visited {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.Blog-entry h2 a:hover {
+    color: red;
+}
+
+.Blog-entry p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.edit-blog,
+.edit-blog:visited,
+.delete-blog,
+.delete-blog:visited {
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.delete-blog:hover {
+    color: red;
+}
+
+.delete-blog {
+    padding-left: 1rem;
+}
